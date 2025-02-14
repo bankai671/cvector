@@ -28,7 +28,7 @@ $(TARGET): $(OBJS)
 main.o: main.c $(HDRS)
 	$(CC) $(CFLAGS) -c main.c
 
-# Rule to compile linked_list.c
+# Rule to compile vector.c
 vector.o: vector.c $(HDRS)
 	$(CC) $(CFLAGS) -c vector.c
 
