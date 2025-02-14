@@ -2,9 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-vector_t* v_create(int* values, unsigned int count) {
-	va_list args;
-
+vector_t* v_create(int* values, int count) {
 	vector_t* vec = (vector_t*)malloc(sizeof(vector_t) + sizeof(int) * count * 2);
 	
 	if (vec == NULL) {

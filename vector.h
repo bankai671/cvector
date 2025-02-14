@@ -9,7 +9,7 @@ typedef struct {
 	int data[];
 } vector_t;
 
-vector_t* v_create(int* values, unsigned int count);
+vector_t* v_create(int* values, int count);
 void v_push_back(vector_t** self, int item);
 void v_print(vector_t* self);
 int v_pop_back(vector_t** self);
